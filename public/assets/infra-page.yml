@@ -1,0 +1,89 @@
+---
+# Additionnal page configuration
+
+# Additionnal configurations are loaded using its file name, minus the extension, as an anchor (https://<mydashboad>#<config>).
+# `config.yml` is still used as a base configuration, and all values here will overwrite it, so you don't have to re-defined everything
+
+
+subtitle: "VPS infrastructure"
+
+# This overwrites message config. Setting it to empty to remove message from this page and keep it only in the main one:
+# message: ~
+
+# as we want to include a differente link here (so we can get back to home page), we need to replicate all links or they will be revome when overwriting the links field:
+# links:
+#   - name: "Home"
+#     icon: "fas fa-home"
+#     url: "#"
+#   - name: "Contribute"
+#     icon: "fab fa-github"
+#     url: "https://github.com/bastienwirtz/homer"
+#     target: "_blank" # optional html a tag target attribute
+#   - name: "Wiki"
+#     icon: "fas fa-book"
+#     url: "https://www.wikipedia.org/"
+
+services:
+  # - name: "More applications on another page!"
+  #   icon: "fas fa-cloud"
+  #   items:
+  #     - name: "Awesome app on a second page!"
+  #       logo: "assets/tools/sample2.png"
+  #       subtitle: "Bookmark example"
+  #       tag: "app"
+  #       url: "https://www.reddit.com/r/selfhosted/"
+  #       target: "_blank"
+
+  - name: "Page 2 Service 1"
+    icon: "fas fa-bolt"
+    items:
+
+      - name: "page two item a1"
+        logo: "assets/tools/sample2.png"
+        url: "https://somewhere.com/r"
+
+      - name: "page two item a2"
+        logo: "assets/tools/sample2.png"
+        url: "https://somewhere.com/s"
+
+      - name: "page two item a3"
+        logo: "assets/tools/sample2.png"
+        url: "https://somewhere.com/t"
+
+      - name: "page two item a4"
+        logo: "assets/tools/sample2.png"
+        url: "https://somewhere.com/u"
+
+  - name: "Page 2 Service 2"
+    icon: "fab fa-docker"
+    items:
+      - name: "page two item b1"
+        logo: "assets/tools/sample2.png"
+        url: "https://somewhere.com/v"
+
+  - name: "Page 2 Service 3"
+    icon: "fas fa-server"
+    items:
+      - name: "page two item c1"
+        logo: "assets/tools/sample2.png"
+        url: "https://somewhere.com/w"
+
+      - name: "page two item c2"
+        logo: "assets/tools/sample2.png"
+        url: "https://somewhere.com/x"
+
+      - name: "page two item c3"
+        logo: "assets/tools/sample2.png"
+        url: "https://somewhere.com/y"
+
+      - name: "page two item c4"
+        logo: "assets/tools/sample2.png"
+        url: "https://somewhere.com/z"
+
+      - name: "page two item c5"
+        logo: "assets/tools/sample2.png"
+        url: "https://somewhere.com/aa"
+
+      - name: "page two item c6"
+        logo: "assets/tools/sample2.png"
+        url: "https://somewhere.com/bb"
